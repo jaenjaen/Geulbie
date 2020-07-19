@@ -5,6 +5,7 @@
 //  Created by 이재은 on 2020/07/19.
 //  Copyright © 2020 DINO. All rights reserved.
 //
+// modified by Shin
 
 import SwiftUI
 
