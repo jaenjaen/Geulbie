@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>33023337337-n63j2080heqbkt68t7e9jfmr3glli78h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.33023337337-n63j2080heqbkt68t7e9jfmr3glli78h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBwm_PEgLOXT0rigIQuHTt-dms_7CPb25s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>33023337337</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dino.Geulbie</string>
+	<key>PROJECT_ID</key>
+	<string>geulbie</string>
+	<key>STORAGE_BUCKET</key>
+	<string>geulbie.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:33023337337:ios:81eec1483af17eee8f05a8</string>
+	<key>DATABASE_URL</key>
+	<string>https://geulbie.firebaseio.com</string>
+</dict>
+</plist>

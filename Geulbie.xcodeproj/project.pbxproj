@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124C560724D16B71005BA0DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 124C560624D16B71005BA0DA /* GoogleService-Info.plist */; };
+		20C45D2883B769B1841A384A /* Pods_Geulbie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A29CC30A2DE8986915B32F3 /* Pods_Geulbie.framework */; };
 		BA2D98B124C4493D00BDDC77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D98B024C4493D00BDDC77 /* AppDelegate.swift */; };
 		BA2D98B324C4493D00BDDC77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D98B224C4493D00BDDC77 /* SceneDelegate.swift */; };
 		BA2D98B524C4493D00BDDC77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D98B424C4493D00BDDC77 /* ContentView.swift */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		124C560624D16B71005BA0DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		199578EEF5D6485F396B9EDC /* Pods-Geulbie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geulbie.release.xcconfig"; path = "Target Support Files/Pods-Geulbie/Pods-Geulbie.release.xcconfig"; sourceTree = "<group>"; };
+		9A29CC30A2DE8986915B32F3 /* Pods_Geulbie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geulbie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C882939A8986B78C8A8B3A /* Pods-Geulbie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geulbie.debug.xcconfig"; path = "Target Support Files/Pods-Geulbie/Pods-Geulbie.debug.xcconfig"; sourceTree = "<group>"; };
 		BA2D98AD24C4493D00BDDC77 /* Geulbie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geulbie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2D98B024C4493D00BDDC77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA2D98B224C4493D00BDDC77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C45D2883B769B1841A384A /* Pods_Geulbie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660897EAA68D3FBF57824D53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A29CC30A2DE8986915B32F3 /* Pods_Geulbie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		708706F01423120FACAE1A52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2C882939A8986B78C8A8B3A /* Pods-Geulbie.debug.xcconfig */,
+				199578EEF5D6485F396B9EDC /* Pods-Geulbie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BA2D98A424C4493D00BDDC77 = {
 			isa = PBXGroup;
 			children = (
 				BA2D98AF24C4493D00BDDC77 /* Geulbie */,
 				BA2D98AE24C4493D00BDDC77 /* Products */,
+				708706F01423120FACAE1A52 /* Pods */,
+				660897EAA68D3FBF57824D53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 		BA2D98AF24C4493D00BDDC77 /* Geulbie */ = {
 			isa = PBXGroup;
 			children = (
+				124C560624D16B71005BA0DA /* GoogleService-Info.plist */,
 				BA2D98B024C4493D00BDDC77 /* AppDelegate.swift */,
 				BA2D98B224C4493D00BDDC77 /* SceneDelegate.swift */,
 				BA2D98B424C4493D00BDDC77 /* ContentView.swift */,
@@ -82,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA2D98C124C4493D00BDDC77 /* Build configuration list for PBXNativeTarget "Geulbie" */;
 			buildPhases = (
+				6A5DF39C5D1812594B05C719 /* [CP] Check Pods Manifest.lock */,
 				BA2D98A924C4493D00BDDC77 /* Sources */,
 				BA2D98AA24C4493D00BDDC77 /* Frameworks */,
 				BA2D98AB24C4493D00BDDC77 /* Resources */,
+				564A09C05F03E6577C139EB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,12 +163,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2D98BD24C4493D00BDDC77 /* LaunchScreen.storyboard in Resources */,
+				124C560724D16B71005BA0DA /* GoogleService-Info.plist in Resources */,
 				BA2D98BA24C4493D00BDDC77 /* Preview Assets.xcassets in Resources */,
 				BA2D98B724C4493D00BDDC77 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564A09C05F03E6577C139EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geulbie/Pods-Geulbie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geulbie/Pods-Geulbie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Geulbie/Pods-Geulbie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5DF39C5D1812594B05C719 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geulbie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA2D98A924C4493D00BDDC77 /* Sources */ = {
@@ -216,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +354,7 @@
 		};
 		BA2D98C224C4493D00BDDC77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C882939A8986B78C8A8B3A /* Pods-Geulbie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +374,7 @@
 		};
 		BA2D98C324C4493D00BDDC77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199578EEF5D6485F396B9EDC /* Pods-Geulbie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_Geulbie {
+  umbrella header "Pods-Geulbie-umbrella.h"
+
+  export *
+  module * { export * }
+}
