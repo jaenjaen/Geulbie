@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124847E124D409BD00AE09EA /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124847E024D409BD00AE09EA /* Text.swift */; };
 		124C560724D16B71005BA0DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 124C560624D16B71005BA0DA /* GoogleService-Info.plist */; };
 		20C45D2883B769B1841A384A /* Pods_Geulbie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A29CC30A2DE8986915B32F3 /* Pods_Geulbie.framework */; };
 		BA2D98B124C4493D00BDDC77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D98B024C4493D00BDDC77 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		124847E024D409BD00AE09EA /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		124C560624D16B71005BA0DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		199578EEF5D6485F396B9EDC /* Pods-Geulbie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geulbie.release.xcconfig"; path = "Target Support Files/Pods-Geulbie/Pods-Geulbie.release.xcconfig"; sourceTree = "<group>"; };
 		9A29CC30A2DE8986915B32F3 /* Pods_Geulbie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geulbie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 				BA2D98B024C4493D00BDDC77 /* AppDelegate.swift */,
 				BA2D98B224C4493D00BDDC77 /* SceneDelegate.swift */,
 				BA2D98B424C4493D00BDDC77 /* ContentView.swift */,
+				124847E024D409BD00AE09EA /* Text.swift */,
 				BA2D98B624C4493D00BDDC77 /* Assets.xcassets */,
 				BA2D98BB24C4493D00BDDC77 /* LaunchScreen.storyboard */,
 				BA2D98BE24C4493D00BDDC77 /* Info.plist */,
@@ -220,6 +223,7 @@
 			files = (
 				BA2D98B124C4493D00BDDC77 /* AppDelegate.swift in Sources */,
 				BA2D98B324C4493D00BDDC77 /* SceneDelegate.swift in Sources */,
+				124847E124D409BD00AE09EA /* Text.swift in Sources */,
 				BA2D98B524C4493D00BDDC77 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
