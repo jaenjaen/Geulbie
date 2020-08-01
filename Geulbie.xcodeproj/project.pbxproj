@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		124847E124D409BD00AE09EA /* TextG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124847E024D409BD00AE09EA /* TextG.swift */; };
 		124C560724D16B71005BA0DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 124C560624D16B71005BA0DA /* GoogleService-Info.plist */; };
-		20C45D2883B769B1841A384A /* Pods_Geulbie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A29CC30A2DE8986915B32F3 /* Pods_Geulbie.framework */; };
+		20C45D2883B769B1841A384A /* Pods_Geulbie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A29CC30A2DE8986915B32F3 /* Pods_Geulbie.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BA2D98B124C4493D00BDDC77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D98B024C4493D00BDDC77 /* AppDelegate.swift */; };
 		BA2D98B324C4493D00BDDC77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D98B224C4493D00BDDC77 /* SceneDelegate.swift */; };
 		BA2D98B524C4493D00BDDC77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2D98B424C4493D00BDDC77 /* ContentView.swift */; };
@@ -17,6 +17,7 @@
 		BA2D98BA24C4493D00BDDC77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2D98B924C4493D00BDDC77 /* Preview Assets.xcassets */; };
 		BA2D98BD24C4493D00BDDC77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2D98BB24C4493D00BDDC77 /* LaunchScreen.storyboard */; };
 		BA36D37424D50E76007329BC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA36D37324D50E76007329BC /* SplashView.swift */; };
+		BA36D37624D52C11007329BC /* BookmarkTmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA36D37524D52C11007329BC /* BookmarkTmp.swift */; };
 		E157AE3424D5264B005F2261 /* MainG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157AE3324D5264B005F2261 /* MainG.swift */; };
 		E157AE3624D52662005F2261 /* WritingNoteG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157AE3524D52662005F2261 /* WritingNoteG.swift */; };
 		E157AE3824D5267C005F2261 /* BookmarkG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157AE3724D5267C005F2261 /* BookmarkG.swift */; };
@@ -39,6 +40,7 @@
 		BA2D98BC24C4493D00BDDC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA2D98BE24C4493D00BDDC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA36D37324D50E76007329BC /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		BA36D37524D52C11007329BC /* BookmarkTmp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTmp.swift; sourceTree = "<group>"; };
 		E157AE3324D5264B005F2261 /* MainG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainG.swift; sourceTree = "<group>"; };
 		E157AE3524D52662005F2261 /* WritingNoteG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingNoteG.swift; sourceTree = "<group>"; };
 		E157AE3724D5267C005F2261 /* BookmarkG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkG.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				E157AE3324D5264B005F2261 /* MainG.swift */,
 				E157AE3524D52662005F2261 /* WritingNoteG.swift */,
 				E157AE3724D5267C005F2261 /* BookmarkG.swift */,
+				BA36D37524D52C11007329BC /* BookmarkTmp.swift */,
 				E157AE3924D52696005F2261 /* MypageG.swift */,
 			);
 			path = Geulbie;
@@ -243,6 +246,7 @@
 				E157AE3824D5267C005F2261 /* BookmarkG.swift in Sources */,
 				BA2D98B324C4493D00BDDC77 /* SceneDelegate.swift in Sources */,
 				E157AE3424D5264B005F2261 /* MainG.swift in Sources */,
+				BA36D37624D52C11007329BC /* BookmarkTmp.swift in Sources */,
 				E157AE3A24D52696005F2261 /* MypageG.swift in Sources */,
 				E192CC6D24D5254700FA0B88 /* TabViewG.swift in Sources */,
 				BA36D37424D50E76007329BC /* SplashView.swift in Sources */,

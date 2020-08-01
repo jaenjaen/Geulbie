@@ -32,7 +32,7 @@ struct TabViewG: View {
                 }
                 .tag(1)
                 
-                BookmarkG()
+                BookmarkTmp()
                 .tabItem {
                     VStack {
                         Image("first")
