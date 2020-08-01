@@ -15,7 +15,7 @@ struct SplashView: View {
     var body: some View {
         VStack {
             if self.isActive {
-                ContentView()
+                TabViewG()
             } else {
                 SwiftUI.Text("글비스플래시")
                 
@@ -23,7 +23,7 @@ struct SplashView: View {
             
         }
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                 withAnimation {
                     self.isActive = true
                     
