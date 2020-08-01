@@ -169,14 +169,24 @@ struct Home : View {
     }
 }
 
+//글
 struct First : View{
     var body: some View{
-        ScrollView(.vertical,showsIndicators: false){
-            Text("fist View")
+        ScrollView(.vertical,showsIndicators : false){
+            ZStack{
+                NavigationView{
+                    VStack{
+                        Text("AB")
+                        NavigationLink(destination: ContentView()){
+                            Text("ABCD")
+                        }
+                    }
+                }
+            }
         }
     }
 }
-
+//이음글
 struct Scnd : View{
     var body: some View{
         
@@ -188,6 +198,7 @@ struct Scnd : View{
     }
 }
 
+//시리즈
 struct Third : View{
     var body: some View{
         
