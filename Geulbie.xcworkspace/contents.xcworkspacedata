@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/s/Projects/Geulbie/Geulbie/SeriesModuleContents.swift">
+   </FileRef>
+   <FileRef
       location = "group:Geulbie.xcodeproj">
    </FileRef>
    <FileRef
