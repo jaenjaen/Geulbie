@@ -24,7 +24,7 @@ class Text: ObservableObject {
         ref.child("text").child(String(index)).observeSingleEvent(of: .value, with: { snapshot in
             let value = snapshot.value as? NSDictionary
             self.title = value?["textTitle"] as? String ?? "No title"
-            self.sample = value?["sampleText"] as? String ?? "No sample"
+            self.sample = value?["sasmpleText"] as? String ?? "No sample"
             self.content = value?["textContent"] as? String ?? "No content"
             self.price = Int(value?["textPrice"] as? String ?? "-2") ?? -3
             print("title of snapshot: \(self.title)")
