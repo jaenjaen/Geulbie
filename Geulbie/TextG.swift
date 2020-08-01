@@ -8,7 +8,7 @@
 
 import Firebase
 
-class Text: ObservableObject {
+class TextG: ObservableObject {
     @Published var title: String = "Title"
     @Published var sample: String = "Sample"
     @Published var content: String = "Content"

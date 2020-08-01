@@ -10,7 +10,7 @@ import SwiftUI
 import Firebase
 
 struct ContentView: View {
-    @ObservedObject var text = Text(of: 4)
+    @ObservedObject var text = TextG(of: 4)
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10.0) {
