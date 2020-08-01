@@ -98,8 +98,8 @@
 		BA2D98AF24C4493D00BDDC77 /* Geulbie */ = {
 			isa = PBXGroup;
 			children = (
-				124C560624D16B71005BA0DA /* GoogleService-Info.plist */,
 				BA2D98B024C4493D00BDDC77 /* AppDelegate.swift */,
+				124C560624D16B71005BA0DA /* GoogleService-Info.plist */,
 				BA2D98B224C4493D00BDDC77 /* SceneDelegate.swift */,
 				BA2D98B424C4493D00BDDC77 /* ContentView.swift */,
 				124847E024D409BD00AE09EA /* TextG.swift */,
