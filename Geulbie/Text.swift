@@ -27,8 +27,8 @@ class Text: ObservableObject {
             self.sample = value?["sasmpleText"] as? String ?? "No sample"
             self.content = value?["textContent"] as? String ?? "No content"
             self.price = Int(value?["textPrice"] as? String ?? "-2") ?? -3
-            print("title of snapshot: \(self.title)")
+            //print("title of snapshot: \(self.title)")
         })
-        print("title after reading func: \(title)")
+        //print("title after reading func: \(title)")
     }
 }
