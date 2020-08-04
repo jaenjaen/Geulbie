@@ -6,13 +6,15 @@
 //  Copyright © 2020 DINO. All rights reserved.
 //
 
+import Combine
 import Firebase
 
-class TextG: ObservableObject {
+class TestTextG: ObservableObject {
     @Published var title: String = "Title"
     @Published var sample: String = "Sample"
     @Published var content: String = "Content"
     @Published var price: Int = -1
+    @Published var seriesIndex: String = "Series index"
     
     init(of index: Int) {
         getText(of: index)
@@ -28,6 +30,7 @@ class TextG: ObservableObject {
             self.content = value?["textContent"] as? String ?? "No content"
             self.price = Int(value?["textPrice"] as? String ?? "-2") ?? -3
             //print("title of snapshot: \(self.title)")
+            print(value?["seriesKey"] as? String ?? "Z")
         })
         //print("title after reading func: \(title)")
     }
