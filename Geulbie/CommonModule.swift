@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct CommonModule: View {
-    var contents: PieceModuleContents
+    var contents: TextModuleContents
     
     var body: some View {
         contents
@@ -23,6 +23,6 @@ struct CommonModule: View {
 
 struct CommonModule_Previews: PreviewProvider {
     static var previews: some View {
-        CommonModule(contents: PieceModuleContents())
+        CommonModule(contents: TextModuleContents(price: 0, rate: 0, sample: "미리보기"))
     }
 }
