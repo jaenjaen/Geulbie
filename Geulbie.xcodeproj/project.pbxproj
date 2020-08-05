@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		121E980524D7FC4900C2EECE /* ModuleContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980424D7FC4900C2EECE /* ModuleContents.swift */; };
 		121E980724D8006300C2EECE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980624D8006300C2EECE /* DataManager.swift */; };
 		121E980A24D802F400C2EECE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980924D802F400C2EECE /* API.swift */; };
 		121E980C24D8034E00C2EECE /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980B24D8034E00C2EECE /* Bookmark.swift */; };
@@ -42,7 +41,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		121E980424D7FC4900C2EECE /* ModuleContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleContents.swift; sourceTree = "<group>"; };
 		121E980624D8006300C2EECE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		121E980924D802F400C2EECE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		121E980B24D8034E00C2EECE /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 				12D7A94B24D539DB0035AADB /* TextModuleContents.swift */,
 				12D7A94F24D5422E0035AADB /* SeriesModuleContents.swift */,
 				126A795224D5572C006AB7FE /* PieceModuleContents.swift */,
-				121E980424D7FC4900C2EECE /* ModuleContents.swift */,
 				121E980624D8006300C2EECE /* DataManager.swift */,
 				121E980824D8027D00C2EECE /* DataModels */,
 			);
@@ -303,7 +300,6 @@
 				BA2D98B124C4493D00BDDC77 /* AppDelegate.swift in Sources */,
 				121E981A24D8084400C2EECE /* BookmarkType.swift in Sources */,
 				E157AE3824D5267C005F2261 /* BookmarkG.swift in Sources */,
-				121E980524D7FC4900C2EECE /* ModuleContents.swift in Sources */,
 				121E981624D8053900C2EECE /* UserText.swift in Sources */,
 				BA2D98B324C4493D00BDDC77 /* SceneDelegate.swift in Sources */,
 				121E981024D803A400C2EECE /* Series.swift in Sources */,

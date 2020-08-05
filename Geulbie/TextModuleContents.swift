@@ -9,8 +9,9 @@
 import SwiftUI
 
 struct TextModuleContents: View {
-    var price: Int = -1
-    var rate: Int = -1
+    var price: Int
+    var rate: Int
+    var sample: String
     
     var body: some View {
         VStack(alignment: .leading, spacing: 2) {
@@ -24,7 +25,7 @@ struct TextModuleContents: View {
             }
             .font(.caption)
             
-            Text("Sample")
+            Text(sample)
                 .font(.subheadline)
         }
         .frame(minWidth: 0, idealWidth: .greatestFiniteMagnitude, maxWidth: .greatestFiniteMagnitude, minHeight: 0, idealHeight: 60, maxHeight: 60, alignment: Alignment.topLeading)
@@ -33,6 +34,6 @@ struct TextModuleContents: View {
 
 struct TextModuleContents_Previews: PreviewProvider {
     static var previews: some View {
-        TextModuleContents()
+        TextModuleContents(price: -1, rate: -1, sample: "Sample")
     }
 }
