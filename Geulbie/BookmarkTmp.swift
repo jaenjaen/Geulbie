@@ -6,6 +6,8 @@
 //  Copyright © 2020 DINO. All rights reserved.
 //
 
+
+//북마크 체크
 import SwiftUI
 
 struct BookmarkTmp: View {
