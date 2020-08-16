@@ -177,11 +177,11 @@ struct First : View{
                 NavigationLink(destination: ContentView()
                 ){
                     TextModuleContents(price:10,rate:0,sample:"그들은 전인 몸이 청춘 피다. 방황하여도, 웅대한 우리 청춘을 것이다. 풀밭에 그들은 예가 새가 가슴에 쓸쓸하랴? 두기 보내는 피가 되려니와, 스며들어 길지 위하여서. 살았으며, 우리 우리의 우리 철환하였는가? 위하여, 가치를 속에 뼈 크고 밥을 힘있다.")
+                }
+                NavigationLink(destination: ContentView()){
+                    TextModuleContents(price:0,rate:40,sample:"이성은 듣기만 크고 너의 발휘하기 앞이 보라. 눈이 가진 맺어, 피가 보배를 인생을 철환하였는가? 천지는 피가 위하여서 힘있다. 하는 길지 뜨거운지라, 작고 옷을 위하여 때문이다. 영락과 스며들어 사라지지 보내는 가치를 바이며, 갑 그와 봄바람이다. 그들의 광야에서 이는 수 그림자는 오아이스도 놀이 철환하였는가?")
                     }
-                    NavigationLink(destination: ContentView()){
-                        TextModuleContents(price:0,rate:40,sample:"이성은 듣기만 크고 너의 발휘하기 앞이 보라. 눈이 가진 맺어, 피가 보배를 인생을 철환하였는가? 천지는 피가 위하여서 힘있다. 하는 길지 뜨거운지라, 작고 옷을 위하여 때문이다. 영락과 스며들어 사라지지 보내는 가치를 바이며, 갑 그와 봄바람이다. 그들의 광야에서 이는 수 그림자는 오아이스도 놀이 철환하였는가?")
-                    }
-                }.navigationBarTitle("")
+                }.navigationBarTitle("책갈피")
                 .navigationBarHidden(true)
         }
     }
