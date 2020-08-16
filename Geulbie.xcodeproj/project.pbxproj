@@ -37,6 +37,7 @@
 		E157AE3624D52662005F2261 /* WritingNoteG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157AE3524D52662005F2261 /* WritingNoteG.swift */; };
 		E157AE3824D5267C005F2261 /* BookmarkG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157AE3724D5267C005F2261 /* BookmarkG.swift */; };
 		E157AE3A24D52696005F2261 /* MypageG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157AE3924D52696005F2261 /* MypageG.swift */; };
+		E157DB3724E93B3900DFFCB7 /* SettingG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157DB3624E93B3900DFFCB7 /* SettingG.swift */; };
 		E192CC6D24D5254700FA0B88 /* TabViewG.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192CC6C24D5254700FA0B88 /* TabViewG.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		E157AE3524D52662005F2261 /* WritingNoteG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingNoteG.swift; sourceTree = "<group>"; };
 		E157AE3724D5267C005F2261 /* BookmarkG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkG.swift; sourceTree = "<group>"; };
 		E157AE3924D52696005F2261 /* MypageG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageG.swift; sourceTree = "<group>"; };
+		E157DB3624E93B3900DFFCB7 /* SettingG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingG.swift; sourceTree = "<group>"; };
 		E192CC6C24D5254700FA0B88 /* TabViewG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewG.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				126A795224D5572C006AB7FE /* PieceModuleContents.swift */,
 				121E980624D8006300C2EECE /* DataManager.swift */,
 				121E980824D8027D00C2EECE /* DataModels */,
+				E157DB3624E93B3900DFFCB7 /* SettingG.swift */,
 			);
 			path = Geulbie;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				121E981C24D8151100C2EECE /* Writing.swift in Sources */,
 				121E980724D8006300C2EECE /* DataManager.swift in Sources */,
 				E192CC6D24D5254700FA0B88 /* TabViewG.swift in Sources */,
+				E157DB3724E93B3900DFFCB7 /* SettingG.swift in Sources */,
 				BA36D37424D50E76007329BC /* SplashView.swift in Sources */,
 				12D7A94A24D533270035AADB /* CommonModule.swift in Sources */,
 				12D7A94C24D539DB0035AADB /* TextModuleContents.swift in Sources */,
