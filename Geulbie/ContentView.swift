@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import Firebase
+//import Firebase
 
 struct ContentView: View {
     @ObservedObject var text = TestTextG(of: 0)
