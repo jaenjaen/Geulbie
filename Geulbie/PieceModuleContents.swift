@@ -9,25 +9,27 @@
 import SwiftUI
 
 struct PieceModuleContents: View {
-    var textTitle: String = "Title of text"
-    var writer: String = "Writer"
+    var writing: Bool = false
     var price: Int = -1
     var rate: Int = -1
+    var pieceTitle: String = "Title of piece"
+    var writer: String = "Writer"
     
     var body: some View {
         VStack(alignment: .leading, spacing: 2) {
             HStack {
                 Spacer()
-                if(price > 0) {
+                if(!writing && (price > 0)) {
                     Text("🍒 \(price)")
-                } else {
+                }
+                else {
                     Text("\(rate)%")
                 }
             }
             .font(.caption)
             
             VStack(alignment: .leading) {
-                Text(textTitle)
+                Text(pieceTitle)
                     .font(.largeTitle)
                 Text(writer)
                     .font(.subheadline)

@@ -9,7 +9,8 @@
 import Combine
 
 class DataManager: ObservableObject {
-    //private let ref: DatabaseReference! = Database.database().reference()
+    /*
+    private let ref: DatabaseReference! = Database.database().reference()
     
     @Published var APIArr: [API]
     @Published var categoryArr: [CategoryG]
@@ -36,9 +37,9 @@ class DataManager: ObservableObject {
         userTextArr = [UserText]()
         writingArr = [Writing]()
         
-        //self.getData(userIndex)
+        self.getData(userIndex)
     }
-    /*
+    
     private func getData(_ userIndex: Int) {
         ref.queryOrderedByKey().observeSingleEvent(of: .value, with: { snapshot in
             var temp: DataSnapshot
