@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="BookmarkMapper">
+	
+	<!-- text_t 관련 query -->
+	<!-- int = userid -->
+	<select id="getText" parameterType="int" resultType="text">
+		select t.text_index,t.text_title,t.writer_index,t.series_index,t.sample_text,t.text_price,t.text_content,t.category_index
+		FROM text_t t,bookmark_t b, user_t u
+		where b.bookmark_type_index = 0
+		AND u.user_index= #{value}
+		AND b.user_index = u.user_index
+		AND b.item_index = t.text_index;
+	</select>
+	
+	<!-- series_t 관련query -->
+	<!-- Writer_t 관련 query -->
+</mapper>
