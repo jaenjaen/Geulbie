@@ -190,7 +190,6 @@ struct First : View{
 struct Scnd : View{
     @State var showingDetail = false
     var body: some View{
-        
         GeometryReader{_ in
              List{
                 Button(action: {
@@ -215,7 +214,6 @@ struct Scnd : View{
 //시리즈
 struct Third : View{
     var body: some View{
-        
         GeometryReader{_ in
             VStack{
                 Text("third")
