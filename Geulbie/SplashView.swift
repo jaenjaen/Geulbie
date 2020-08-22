@@ -15,7 +15,7 @@ struct SplashView: View {
     var body: some View {
         VStack {
             if self.isActive {
-                TabViewG()
+                Login()
             } else {
                 SwiftUI.Text("글비스플래시")
                 
