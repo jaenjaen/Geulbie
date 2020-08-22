@@ -18,7 +18,7 @@ struct SeriesModuleContents: View {
             Text(writer)
                 .font(.subheadline)
         }
-        .frame(minWidth: 0, idealWidth: .greatestFiniteMagnitude, maxWidth: .greatestFiniteMagnitude, minHeight: 0, idealHeight: 55, maxHeight: 60, alignment: Alignment.leading)
+        .frame(minWidth: 0, idealWidth: .greatestFiniteMagnitude, maxWidth: .greatestFiniteMagnitude, minHeight: 0, idealHeight: 60, maxHeight: 60, alignment: Alignment.leading)
     }
 }
 

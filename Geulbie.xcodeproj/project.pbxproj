@@ -3,23 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		121E980724D8006300C2EECE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980624D8006300C2EECE /* DataManager.swift */; };
 		121E980A24D802F400C2EECE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980924D802F400C2EECE /* API.swift */; };
 		121E980C24D8034E00C2EECE /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980B24D8034E00C2EECE /* Bookmark.swift */; };
-		121E980E24D8038F00C2EECE /* CategoryG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980D24D8038F00C2EECE /* CategoryG.swift */; };
 		121E981024D803A400C2EECE /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E980F24D803A400C2EECE /* Series.swift */; };
 		121E981224D803AF00C2EECE /* TextG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E981124D803AF00C2EECE /* TextG.swift */; };
 		121E981424D8052100C2EECE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E981324D8052000C2EECE /* User.swift */; };
 		121E981624D8053900C2EECE /* UserText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E981524D8053900C2EECE /* UserText.swift */; };
 		121E981824D8062900C2EECE /* Writer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E981724D8062900C2EECE /* Writer.swift */; };
 		121E981A24D8084400C2EECE /* BookmarkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E981924D8084400C2EECE /* BookmarkType.swift */; };
-		121E981C24D8151100C2EECE /* Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121E981B24D8151100C2EECE /* Writing.swift */; };
 		124847E124D409BD00AE09EA /* TestTextG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124847E024D409BD00AE09EA /* TestTextG.swift */; };
 		124C560724D16B71005BA0DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 124C560624D16B71005BA0DA /* GoogleService-Info.plist */; };
+		124CFC4E24F0E3DD0047765A /* ModuleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CFC4D24F0E3DD0047765A /* ModuleType.swift */; };
+		124CFC5824F11C210047765A /* CategoryG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124CFC5724F11C210047765A /* CategoryG.swift */; };
 		126A795324D5572C006AB7FE /* PieceModuleContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A795224D5572C006AB7FE /* PieceModuleContents.swift */; };
 		12D7A94A24D533270035AADB /* CommonModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D7A94924D533270035AADB /* CommonModule.swift */; };
 		12D7A94C24D539DB0035AADB /* TextModuleContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D7A94B24D539DB0035AADB /* TextModuleContents.swift */; };
@@ -43,16 +43,16 @@
 		121E980624D8006300C2EECE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		121E980924D802F400C2EECE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		121E980B24D8034E00C2EECE /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
-		121E980D24D8038F00C2EECE /* CategoryG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryG.swift; sourceTree = "<group>"; };
 		121E980F24D803A400C2EECE /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		121E981124D803AF00C2EECE /* TextG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextG.swift; sourceTree = "<group>"; };
 		121E981324D8052000C2EECE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		121E981524D8053900C2EECE /* UserText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserText.swift; sourceTree = "<group>"; };
 		121E981724D8062900C2EECE /* Writer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Writer.swift; sourceTree = "<group>"; };
 		121E981924D8084400C2EECE /* BookmarkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkType.swift; sourceTree = "<group>"; };
-		121E981B24D8151100C2EECE /* Writing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Writing.swift; sourceTree = "<group>"; };
 		124847E024D409BD00AE09EA /* TestTextG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextG.swift; sourceTree = "<group>"; };
 		124C560624D16B71005BA0DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		124CFC4D24F0E3DD0047765A /* ModuleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleType.swift; sourceTree = "<group>"; };
+		124CFC5724F11C210047765A /* CategoryG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryG.swift; sourceTree = "<group>"; };
 		126A795224D5572C006AB7FE /* PieceModuleContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceModuleContents.swift; sourceTree = "<group>"; };
 		12D7A94924D533270035AADB /* CommonModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonModule.swift; sourceTree = "<group>"; };
 		12D7A94B24D539DB0035AADB /* TextModuleContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModuleContents.swift; sourceTree = "<group>"; };
@@ -85,21 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		121E980824D8027D00C2EECE /* DataModels */ = {
+		121E980824D8027D00C2EECE /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				121E980924D802F400C2EECE /* API.swift */,
 				121E980B24D8034E00C2EECE /* Bookmark.swift */,
 				121E981924D8084400C2EECE /* BookmarkType.swift */,
-				121E980D24D8038F00C2EECE /* CategoryG.swift */,
+				124CFC5724F11C210047765A /* CategoryG.swift */,
 				121E980F24D803A400C2EECE /* Series.swift */,
 				121E981124D803AF00C2EECE /* TextG.swift */,
 				121E981324D8052000C2EECE /* User.swift */,
 				121E981524D8053900C2EECE /* UserText.swift */,
 				121E981724D8062900C2EECE /* Writer.swift */,
-				121E981B24D8151100C2EECE /* Writing.swift */,
 			);
-			path = DataModels;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		708706F01423120FACAE1A52 /* Pods */ = {
@@ -141,16 +140,17 @@
 				BA36D37324D50E76007329BC /* SplashView.swift */,
 				E192CC6C24D5254700FA0B88 /* TabViewG.swift */,
 				E157AE3324D5264B005F2261 /* MainG.swift */,
-				E11DB78724E8E4BA001DA0DF /* SeriesModuleContents.swift */,
 				E157AE3524D52662005F2261 /* WritingNoteG.swift */,
 				E157AE3724D5267C005F2261 /* BookmarkG.swift */,
 				BA36D37524D52C11007329BC /* BookmarkTmp.swift */,
 				E157AE3924D52696005F2261 /* MypageG.swift */,
 				12D7A94924D533270035AADB /* CommonModule.swift */,
+				124CFC4D24F0E3DD0047765A /* ModuleType.swift */,
 				12D7A94B24D539DB0035AADB /* TextModuleContents.swift */,
+				E11DB78724E8E4BA001DA0DF /* SeriesModuleContents.swift */,
 				126A795224D5572C006AB7FE /* PieceModuleContents.swift */,
 				121E980624D8006300C2EECE /* DataManager.swift */,
-				121E980824D8027D00C2EECE /* DataModels */,
+				121E980824D8027D00C2EECE /* Models */,
 			);
 			path = Geulbie;
 			sourceTree = "<group>";
@@ -240,13 +240,13 @@
 				BA2D98B124C4493D00BDDC77 /* AppDelegate.swift in Sources */,
 				121E981A24D8084400C2EECE /* BookmarkType.swift in Sources */,
 				E157AE3824D5267C005F2261 /* BookmarkG.swift in Sources */,
+				124CFC5824F11C210047765A /* CategoryG.swift in Sources */,
 				121E981624D8053900C2EECE /* UserText.swift in Sources */,
 				BA2D98B324C4493D00BDDC77 /* SceneDelegate.swift in Sources */,
 				121E981024D803A400C2EECE /* Series.swift in Sources */,
 				E157AE3424D5264B005F2261 /* MainG.swift in Sources */,
 				BA36D37624D52C11007329BC /* BookmarkTmp.swift in Sources */,
 				E157AE3A24D52696005F2261 /* MypageG.swift in Sources */,
-				121E981C24D8151100C2EECE /* Writing.swift in Sources */,
 				121E980724D8006300C2EECE /* DataManager.swift in Sources */,
 				E192CC6D24D5254700FA0B88 /* TabViewG.swift in Sources */,
 				BA36D37424D50E76007329BC /* SplashView.swift in Sources */,
@@ -255,11 +255,11 @@
 				124847E124D409BD00AE09EA /* TestTextG.swift in Sources */,
 				E11DB78824E8E4BA001DA0DF /* SeriesModuleContents.swift in Sources */,
 				E157AE3624D52662005F2261 /* WritingNoteG.swift in Sources */,
+				124CFC4E24F0E3DD0047765A /* ModuleType.swift in Sources */,
 				121E981224D803AF00C2EECE /* TextG.swift in Sources */,
 				121E980A24D802F400C2EECE /* API.swift in Sources */,
 				121E981824D8062900C2EECE /* Writer.swift in Sources */,
 				BA2D98B524C4493D00BDDC77 /* ContentView.swift in Sources */,
-				121E980E24D8038F00C2EECE /* CategoryG.swift in Sources */,
 				121E981424D8052100C2EECE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

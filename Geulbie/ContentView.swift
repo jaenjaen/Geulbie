@@ -11,7 +11,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var text = TestTextG(of: 0)
-    var dataManaver = DataManager(userIndex: 2)
+    //var dataManaver = DataManager(userIndex: 2)
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10.0) {

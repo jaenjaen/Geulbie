@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct TextModuleContents: View {
+    var writing: Bool
     var price: Int
     var rate: Int
     var sample: String
@@ -17,9 +18,10 @@ struct TextModuleContents: View {
         VStack(alignment: .leading, spacing: 2) {
             HStack {
                 Spacer()
-                if(price > 0) {
+                if(!writing && (price > 0)) {
                     Text("🍒 \(price)")
-                } else {
+                }
+                else {
                     Text("\(rate)%")
                 }
             }
@@ -34,6 +36,6 @@ struct TextModuleContents: View {
 
 struct TextModuleContents_Previews: PreviewProvider {
     static var previews: some View {
-        TextModuleContents(price: -1, rate: -1, sample: "Sample")
+        TextModuleContents(writing: false, price: -1, rate: -1, sample: "Sample")
     }
 }
