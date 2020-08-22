@@ -19,14 +19,33 @@ class UserTests {
 	
 	@Test
 	void contextLoads() {
-		
-//		List<User> userList = session.selectList(NS+"getUser");
-//		for(User u: userList) {
-//			System.out.println(u);
-//		}
-//		
+				
 //		User u = session.selectOne(NS+"getUser",1);
 //		System.out.println(u);
+//		
+//		User u = new User();
+//		u.setUserIndex(2);
+//		u.setApiIndex(1);
+//		u.setUserNickname("샘플");
+//		u.setUserAccount("sample@gmail.com");
+//		u.setUserApiKey("ssnrkdldmldlTtmqslRK");
+//		u.setUserImg("sample.png");
+//		u.setUserNickname("이재은");
+//		u.setRemoveAd(1);
+//		u.setUserBerry(10);
+//		
+//		session.insert(NS+"registerUser",u);
+		
+//		session.delete(NS+"deleteUser",5);
+//		session.delete(NS+"deleteUser",6);
+		
+//		session.update(NS+"updateUser",u);
+		
+//		List<User> userList = session.selectList(NS+"getUser");
+//		for(User user: userList) {
+//			System.out.println(user);
+//		}
+		
 	}
 
 }

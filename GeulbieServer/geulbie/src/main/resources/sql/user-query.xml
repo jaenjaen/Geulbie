@@ -15,4 +15,22 @@
 		</if>		
 	</select>
 	
+	<insert id="registerUser" parameterType="user">
+		<selectKey keyProperty="apiIndex" resultType="int" order="AFTER">
+			SELECT api_index FROM api_t WHERE api_index = #{apiIndex}
+		</selectKey>
+		INSERT INTO user_t (user_nickname,user_account,api_index,user_api_key,user_img,remove_ad,user_berry)
+		VALUES (#{userNickname},#{userAccount},#{apiIndex},#{userApiKey},#{userImg},#{removeAd},#{userBerry})
+	</insert>
+	
+	<delete id="deleteUser" parameterType="int">
+		DELETE FROM user_t
+		WHERE user_index = #{value}
+	</delete>
+	
+	<update id="updateUser" parameterType="user">
+		UPDATE user_t SET user_nickname = #{userNickname}, remove_ad = #{removeAd}, user_berry = #{userBerry}
+		WHERE user_index = #{userIndex}
+	</update>
+	
 </mapper>
